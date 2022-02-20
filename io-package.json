@@ -1,0 +1,91 @@
+{
+	"common": {
+		"name": "presence_simulator",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Presence Simulator",
+		"titleLang": {
+			"en": "Presence Simulator",
+			"de": "Anwesenheitssimulator",
+			"ru": "Симулятор присутствия",
+			"pt": "Simulador de presença",
+			"nl": "Aanwezigheidssimulator",
+			"fr": "Simulateur de présence",
+			"it": "Simulatore di presenza",
+			"es": "Simulador de presencia",
+			"pl": "Symulator obecności",
+			"zh-cn": "存在模拟器"
+		},
+		"desc": {
+			"en": "will follow",
+			"de": "wird folgen",
+			"ru": "последует",
+			"pt": "seguirá",
+			"nl": "zal volgen",
+			"fr": "suivrai",
+			"it": "seguirà",
+			"es": "seguirá",
+			"pl": "pójdą za mną",
+			"zh-cn": "将遵循"
+		},
+		"authors": ["JeBrod <Jens@Brodowski.name>"],
+		"keywords": ["lights", "security", "simulation", "presence"],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "presence_simulator.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/JeBrod/ioBroker.presence_simulator/main/admin/presence_simulator.png",
+		"readme": "https://github.com/JeBrod/ioBroker.presence_simulator/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "lighting",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"materializeTab": true,
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "Presence Simulator",
+				"de": "Anwesenheitssimulator",
+				"ru": "Симулятор присутствия",
+				"pt": "Simulador de presença",
+				"nl": "Aanwezigheidssimulator",
+				"fr": "Simulateur de présence",
+				"it": "Simulatore di presenza",
+				"es": "Simulador de presencia",
+				"pl": "Symulator obecności",
+				"zh-cn": "存在模拟器"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
